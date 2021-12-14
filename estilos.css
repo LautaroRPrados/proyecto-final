@@ -278,6 +278,11 @@ h3{
         margin-top: 50px;
         margin-left: 15%;
       }
+      .feature-img2 img{
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 3%;
+      }
 
       
       .price{
@@ -299,6 +304,12 @@ h3{
           margin-left: 15%;
           
       }
+      .feature-details2{
+          margin-top: -35px;
+          margin-left: 3%;
+          width: 90%;
+          
+      }
 
       .feature-details h4{
           font-size: 20px;
@@ -306,11 +317,23 @@ h3{
           margin-top: 10px;
           
       }
+      .feature-details2 h4{
+          font-size: 30px;
+          font-weight: 800;
+          margin-top: 10px;
+          text-align: center;
+          
+      }
 
       .feature-details p{
           font-size: 15px;
           text-align: left;
           width: 70%;
+      }
+      .feature-details2 p{
+          font-size: 17px;
+          text-align: center;
+          width: 98%;
       }
 
       .feature-box{
