@@ -11,18 +11,19 @@ body{
     background-color: lightblue;
 }
 
-#header1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(caja3.jpg);
-    width: 100%;
-    height: 100vh;
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/caja3.jpg);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    position: relative;
 }
 
 #header3{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fondo\ flights.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/fondo\ flights.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -55,14 +56,6 @@ ul li a:hover{
     color: black;
 }
 
-
-
-.logo img{
-    float: left;
-    width:700px
-    
-    
-}
 
 .main{
     max-width: 1200px;
@@ -114,10 +107,8 @@ ul li a:hover{
     width: 100%;
     max-width: 500px;
     border-radius: 30px;
-    background-color: wheat;
-    margin: auto;
+    background-color: white;
     padding: 2px;
-    margin-top: -20px;
 }
 
 
@@ -194,15 +185,6 @@ h3{
 
     ul li a{
         display: block;
-    }
-    nav{
-        position: absolute;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: 0;
-        text-align: left;
-        
     }
 }
 
@@ -423,7 +405,7 @@ h3{
 
       .banner{
           height: 80%;
-          background-image: url(banner.jpg);
+          background-image: url(../images/banner.jpg);
           background-position: center;
           background-size: cover;
           background-attachment:fixed ;
@@ -487,6 +469,71 @@ h3{
           
       }
 
+
+      /* NUEVOS ESTILOS */
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+    }
+
+    div.divlogo {
+        align-self: center;
+    }
+
+    div.navlinks {
+        align-self: center;
+    }
+
+    .logo {
+        width:150px        
+    }
+
+    .padre {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div1{
+        width: 300px;
+        height: 300px;
+        margin: 30px;
+        background-color: red;
+    }
+    
+    .div2{
+        width: 300px;
+        height: 300px;
+        margin: 30px;
+        background-color: green;
+    }
+    
+    .div3{
+        width: 300px;
+        height: 300px;
+        margin: 30px;
+        background-color: blue;
+    }
+
+    /* Query de desktop. Cuando el ancho de la pantalla es igual o mayor a 1024px pasa lo siguente */
+    @media(min-width: 1024px){ 
+        nav {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .padre {         
+            flex-direction: row;
+        }
+    }
+    
       
 
       
