@@ -622,6 +622,10 @@ div.divlogo {
     background-color: #161616;
 }
 
+.footerLogo {
+    width: 200px;   
+}
+
 
 
 
@@ -726,8 +730,7 @@ div.divlogo {
     }
 
     .footerLogo {
-        width: 250px;
-        
+        width: 250px;   
     }
 
 
