@@ -449,6 +449,7 @@ div.desc {
     padding-top: 14%;
     padding-bottom: 100px;
     margin-bottom: 100px;
+   
 
 }
 
@@ -527,6 +528,7 @@ nav {
     padding: 20px;
     position: absolute;
     width: 100%;
+    z-index: 100;
 }
 
 div.divlogo {
@@ -659,6 +661,16 @@ div.divlogo {
     font-size: 36px;
     margin-left: 50px;
   }
+
+  .bg-hotels{
+    background-image: url(../images/sunrise.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+      
+  }
+
+  
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
